@@ -1,2 +1,19 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+:root {
+	--ion-color-sky: #6facfb;
+	--ion-color-sky-rgb: 111,172,251;
+	--ion-color-sky-contrast: #000000;
+	--ion-color-sky-contrast-rgb: 0,0,0;
+	--ion-color-sky-shade: #6297dd;
+	--ion-color-sky-tint: #7db4fb;
+}
+
+.ion-color-sky {
+	--ion-color-base: var(--ion-color-sky);
+	--ion-color-base-rgb: var(--ion-color-sky-rgb);
+	--ion-color-contrast: var(--ion-color-sky-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-sky-contrast-rgb);
+	--ion-color-shade: var(--ion-color-sky-shade);
+	--ion-color-tint: var(--ion-color-sky-tint);
+}
